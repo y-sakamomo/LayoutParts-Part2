@@ -11,22 +11,20 @@
   position: relative;
 }
 
-.balloon::before {
+.balloon::before,.balloon::after {
   content: "";
   position: absolute;
   width: 0;
   height: 0;
   border: 20px solid transparent;
+}
+
+.balloon::before {
   border-top: 20px solid #8f5a0a;
   bottom: -40px;
 }
 
 .balloon::after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 0;
-  border: 20px solid transparent;
   border-top: 20px solid #fad296;
   bottom: -33px;
 }

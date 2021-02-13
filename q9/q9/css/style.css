@@ -121,10 +121,7 @@
   height: 150px;
   border-radius: 50%;
   background-color: #ffffff;
-  background-image: url(https://picsum.photos/id/1005/200/300);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: url(https://picsum.photos/id/1005/200/300) no-repeat center/cover;
   margin: 0 auto;
 }
 
